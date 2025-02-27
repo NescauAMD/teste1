@@ -1,0 +1,40 @@
+/* Configuração geral da página */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #1a1a2e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Título */
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Estilizando o contador */
+.countdown {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    box-shadow: 0 0 15px rgba(255, 75, 43, 0.8);
+    display: inline-block;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efeito de brilho no contador */
+.countdown:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 75, 43, 1);
+}
